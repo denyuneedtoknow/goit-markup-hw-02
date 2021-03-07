@@ -13,6 +13,10 @@ ul {
     list-style-type: none;
 }
 
+.hidden {
+    display: none;
+}
+
 
 /* header styles */
 
@@ -38,8 +42,8 @@ header {
     color: var(--accent-color);
 }
 
-nav .navigation-links:hover,
-nav .navigation-links:focus {
+.navigation-links:hover,
+.navigation-links:focus {
     color: var(--accent-color);
 }
 
