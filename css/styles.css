@@ -16,6 +16,7 @@ body {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  /* background-color: var(--background-color-main); */
   color: var(--common-text-color);
 }
 
@@ -50,7 +51,6 @@ header {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
   color: var(--accent-color);
 }
 
@@ -60,7 +60,6 @@ header {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
   color: #000000;
 }
 .logo-link {
@@ -85,7 +84,7 @@ header {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--important-text-color);
   text-decoration: none;
@@ -111,9 +110,7 @@ header {
 }
 
 /* Advantages section styles */
-.advantages-section-header {
-  display: none;
-}
+
 .advantages-section,
 .work-section {
   background-color: var(--important-color);
@@ -123,13 +120,8 @@ header {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14px;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--important-text-color);
-}
-
-.advantages-paragraph {
-  color: var(--common-text-color);
 }
 
 /* Work section styles*/
@@ -140,7 +132,6 @@ header {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--important-text-color);
 }
 
@@ -154,9 +145,6 @@ header {
   color: var(--important-text-color);
 }
 
-.teammates-position {
-  color: var(--common-text-color);
-}
 /* Portfolio page styles */
 .simple-button {
   background-color: var(--background-color-secondary);
@@ -165,7 +153,6 @@ header {
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
-  letter-spacing: 0.03em;
   cursor: pointer;
 }
 .simple-button:hover,
@@ -176,7 +163,6 @@ header {
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
-  letter-spacing: 0.03em;
   cursor: pointer;
 }
 .product-header {
@@ -191,7 +177,6 @@ header {
   font-size: 16px;
   line-height: 1.87;
   /* identical to box height, or 187% */
-  letter-spacing: 0.03em;
 }
 
 /* footer styles */
@@ -205,7 +190,6 @@ footer {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
   color: var(--important-color);
 }
 
