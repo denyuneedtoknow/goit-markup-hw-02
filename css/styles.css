@@ -16,7 +16,6 @@ body {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  /* background-color: var(--background-color-main); */
   color: var(--common-text-color);
 }
 
@@ -31,7 +30,6 @@ ul {
 /* header styles */
 h1 {
   font-family: Roboto;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -47,8 +45,7 @@ header {
 
 .logo {
   font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   color: var(--accent-color);
@@ -56,8 +53,7 @@ header {
 
 .studio-up {
   font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   color: #000000;
@@ -81,7 +77,6 @@ header {
 }
 
 .navigation-links {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
@@ -117,7 +112,7 @@ header {
 }
 
 .advantages-header {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14px;
   text-transform: uppercase;
@@ -128,7 +123,7 @@ header {
 
 .work-section-header,
 .team-section-header {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -160,14 +155,9 @@ header {
 .simple-button:focus {
   background-color: var(--accent-color);
   color: var(--important-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  text-align: center;
-  cursor: pointer;
 }
 .product-header {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -188,7 +178,7 @@ footer {
 
 .studio-down {
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   color: var(--important-color);
