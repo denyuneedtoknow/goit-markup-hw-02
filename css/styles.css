@@ -20,8 +20,9 @@ body {
   letter-spacing: 0.03em;
   background-color: var(--background-color-main);
   color: var(--common-text-color);
-  padding-left: 10;
-  margin: 100px auto;
+  padding-left: 30px;
+  margin-top: 0px auto;
+  margin-left: 300px;
 }
 
 ul {
@@ -47,6 +48,9 @@ h1 {
 }
 header {
   background-color: var(--important-color);
+  margin-top: 0px;
+  margin-bottom: -30px;
+  padding-left: 40px;
 }
 
 .logo {
@@ -85,6 +89,7 @@ header {
 }
 
 .navigation-links {
+  margin-left: -20px;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -101,14 +106,17 @@ header {
 /* main styles */
 
 .main-button {
+  margin-left: 40px;
   background-color: var(--accent-color);
   color: var(--important-color);
   cursor: pointer;
+  border-radius: 5px;
 }
 
 /* Hero Section styles */
 
 .hero-section {
+  margin-top: 0px;
   background-color: var(--main-color);
   color: var(--important-color);
   height: 600px;
